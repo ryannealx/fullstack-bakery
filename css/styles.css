@@ -1,0 +1,79 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 40pt;
+  color: rgb(120, 87, 46);
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  gap: 5px;
+  font-size: 20pt;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(120, 87, 46);
+}
+
+.main {
+  flex-grow: 1;
+  padding: 0px 5px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(80, 55, 25);
+  background-color: rgb(189, 168, 27);
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30pt;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 1500px;
+}
+
+.testimonial {
+  background-color: rgb(241, 226, 207);
+  font-size: 15pt;
+  width: 600px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: rgb(223, 176, 89);
+  font-size: 20pt;
+  padding-bottom: 10px;
+}
